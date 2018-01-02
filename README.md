@@ -12,3 +12,4 @@ Currently, the API is almost ready. Moving towards working on the front-end.
 > * Used router.route("/").(express verb)
 > * the front-end is mostly to be built in React.
 > * testing for the API's is currently done with postman.
+> * Contributions from fellow developers are highly valued
