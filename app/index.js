@@ -8,6 +8,7 @@ var _ = require("lodash");
 var app = express();
 var router = express.Router();
 var cors = require("cors");
+var dataSchema = require("./MongoSchema");
 mongoose.connect("mongodb://localhost:27017/products");
 app.use(express.static("client"));
 app.use(bodyParser.urlencoded({ extended: true }));
